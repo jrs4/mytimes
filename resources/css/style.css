@@ -26,7 +26,6 @@ header{
   display: inline-flex;
   padding: 0px 40px;
   margin: 10px 10px;
-  border: 1px solid black;
 }
 
 .name h3 {
@@ -56,26 +55,71 @@ nav li{
   display: flex;
   top: 100px;
   padding-top: 20px;
-  border: 1px solid black;
   width: 1250px;
   position: relative;
 
 }
 
+.column{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .column.large{
   width: 630px;
-  border: 1px solid black;
   margin: 10px;
 }
 
 .column.medium{
   width: 300px;
-  border: 1px solid black;
   margin: 10px;
 }
 
 .column.small{
   width: 240px;
-  border: 1px solid black;
   margin: 10px;
+}
+
+.story{
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  font-family: "Georgia";
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 7px;
+}
+
+#story-main{
+  background-image: url("../images/img-story-main.png");
+  width: 630px;
+  font-size: 40px;
+  text-align: left;
+}
+
+#story1{
+  background-image: url("../images/img-story-1.png");
+}
+
+#story2{
+  background-image: url("../images/img-story-2.png");
+}
+
+#story3{
+  background-image: url("../images/img-story-3.png");
+}
+
+.news{
+  width: 300px;
+  padding: 7px;
+  font-family: "Georgia";
+  font-size: 17px;
+  color: black;
+}
+
+#news1{
+  width: 630px;
 }

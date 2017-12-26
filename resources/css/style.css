@@ -1,0 +1,36 @@
+header{
+  display: fixed;
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  padding: 10px 40px;
+  border-bottom: 1px solid black;
+  font-family: "Verdana";
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.header h3 {
+  width: 200px;
+  padding-left: 20px;
+}
+
+nav {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+nav li{
+  display: inline-flex;
+  text-decoration: none;
+  color: black;
+  padding: 0px 20px;
+}
+
+h3{
+    color: mediumaquamarine;
+}

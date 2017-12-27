@@ -83,7 +83,9 @@ nav li{
 }
 
 .story{
+  display:flex;
   text-align: center;
+  align-items: center;
   width: 300px;
   height: 300px;
   font-family: "Georgia";
